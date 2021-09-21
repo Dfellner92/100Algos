@@ -3,7 +3,7 @@ export function almostIncreasingSequence(sequence: number[]): boolean {
     for (let i = 0; i < sequence.length; i++) {
       if (count === 2) {
         return false;
-      } else if (sequence[i] > sequence[i + 1]) {
+      } else if (sequence[i] >= sequence[i + 1]) {
         count++;
       }
     }
