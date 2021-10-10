@@ -10,3 +10,6 @@ export function differentSymbolsNaive(s: string): number {
 }
 
 console.log(differentSymbolsNaive("cabca"));
+
+
+// try using sets next time, they're designed for unique values
