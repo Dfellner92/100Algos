@@ -1,6 +1,6 @@
 export function convertString(s: string, t: string): boolean {
   let splitS: string[] = s.split("");
-  let splitT: stirng[] = t.split("");
+  let splitT: string[] = t.split("");
   let index = 0;
   let hiddenWord = "";
 
