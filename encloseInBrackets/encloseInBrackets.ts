@@ -6,10 +6,10 @@ console.log(encloseInBrackets("abacaba"));
 
 // My solve
 
-export function encloseInBrackets(inputString: string): string {
+export function encloseInBrackets2(inputString: string): string {
   return `(${inputString})`;
 }
 
-console.log(encloseInBrackets("abacaba"));
+console.log(encloseInBrackets2("abacaba"));
 
 //  ES6 solve
