@@ -1,9 +1,9 @@
 export function evenDigitsOnly(n: number): boolean {
   const stringedDigits: string[] = n.toString().split("");
-  let evenArray: number[] = [];
+  let evenArray: string[] = [];
 
-  stringedDigits.forEach((number) => {
-    Number(number) % 2 === 0 ? evenArray.push(number) : evenArray;
+  stringedDigits.forEach((digit: string) => {
+    Number(digit) % 2 === 0 ? evenArray.push(digit) : evenArray;
   });
 
   return evenArray.length === stringedDigits.length;
