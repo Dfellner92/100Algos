@@ -1,6 +1,7 @@
 export function validTime(time: string): boolean {
+  const [hours, minutes] = time.split(":");
   let hour: number = parseInt(time.slice(0, 2));
-  let minute: number = parseInt(time.slice(3, 4));
+  let minute: number = parseInt(time.slice(3, 5));
   return hour < 25 && minute < 60;
 }
 
